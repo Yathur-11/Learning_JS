@@ -47,7 +47,10 @@ console.log(another_user);
 
 
 
-// get all the keys from an object, returns all the keys in form of array
+// get all the /values from an object, returns all the keys/values in form of array
 
 console.log(Object.keys(first_user));
+console.log(Object.values(first_user));
  
+
+console.log(first_user.hasOwnProperty("a"));
